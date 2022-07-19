@@ -1,0 +1,37 @@
+html,
+body{
+  margin: 0;
+  padding: 0;
+}
+*{
+  --1 : red;
+  --2 : yellow;
+  --3 : green;
+  --4 : purple;
+  --5 : blue;
+}
+[class^="c-"]{
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.c-1{
+  background-color: var(--1);
+}
+.c-2{
+  background-color: var(--2);
+}
+.c-3{
+  background-color: var(--3);
+}
+.c-4{
+  background-color: var(--4);
+}
+.c-5{
+  background-color: var(--5);
+}
+.c-reset{
+  width: auto;
+}
